@@ -1,0 +1,66 @@
+{
+  "nodes": {
+    "flake-parts": {
+      "inputs": {
+        "nixpkgs-lib": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1685662779,
+        "narHash": "sha256-cKDDciXGpMEjP1n6HlzKinN0H+oLmNpgeCTzYnsA2po=",
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "rev": "71fb97f0d875fd4de4994dfb849f2c75e17eb6c3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1686582075,
+        "narHash": "sha256-vtflsfKkHtF8IduxDNtbme4cojiqvlvjp5QNYhvoHXc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "7e63eed145566cca98158613f3700515b4009ce3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-parts": "flake-parts",
+        "nixpkgs": "nixpkgs",
+        "schemas": "schemas"
+      }
+    },
+    "schemas": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1683245077,
+        "narHash": "sha256-04yRo8KkqDa00XtgX14jaTZZwCvngOT7qgqoDjf5CxI=",
+        "owner": "Kranzes",
+        "repo": "terraform-schemas",
+        "rev": "a2c724c28a92239ed39d940ff767e30e00b1120c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Kranzes",
+        "ref": "schemas",
+        "repo": "terraform-schemas",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
